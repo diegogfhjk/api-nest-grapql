@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Customer {
+  id: String!
+  name: String!
+  email: String!
+  phone: String!
+  address: String!
+}
+
+type Query {
+  sayHello: String!
+  getAllCustomers: [Customer!]!
+  getCustomerById(id: String!): Customer
+}
